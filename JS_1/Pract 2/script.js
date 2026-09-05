@@ -22,4 +22,15 @@ alert(srt_ch);
 srt_ch = srt3[4];
 alert(srt_ch);
 
+
+// Начало
 var num = 12345;
+var product = 1;
+var length = num.length;
+
+for (var i = 0; i < length; i++) {
+        var digit = parseInt(num[i], 10);
+        product *= digit;
+    }
+alert(product);
+// Конец
