@@ -10,3 +10,14 @@ var d = 2;
 var result = c+d;
 alert(`15 + 2 =  ${result}`);
 
+var a1 = 10;
+var b1 = 2;
+var c1 = 5;
+alert("10 + 2 + 5 = " +(a1+b1+c1))
+
+var a2 = 17;
+var b2 = 10;
+var c2 = a-b;
+var d2 = 7;
+var result1 = c2 + b2;
+alert(`17 - 10 - 7 =  ${result1}`);
