@@ -1,0 +1,10 @@
+fructs = ["Апельсин", "Банан", "Груша"]
+alert("кол-во фруктов: " +fructs.length)
+fructs.push("Яблоко", "Ананас")
+fructs.unshift("Грейпфрут")
+alert("Добавил в начало и конец массива фрукты")
+alert("кол-во фруктов: " +fructs.length)
+alert("Удалил из начала и конеца массива фрукты")
+fructs.pop()
+fructs.shift()
+alert("кол-во фруктов: " +fructs.length)
